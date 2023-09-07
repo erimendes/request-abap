@@ -2,9 +2,9 @@ import prismaClient from "../../prisma";
 
 interface Object{
     pgmid: string;
-    obj: string;
-    objname: string;
-    task_num: string;
+    //obj: string;
+    //objname: string;
+    //task_num: string;
 }
 class GetObjectService{
     async execute({ pgmid }: Object){
